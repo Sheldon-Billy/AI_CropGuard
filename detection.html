@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Detection — CropGuard AI</title>
+  <script>if (!localStorage.getItem('cg_token')) { window.location.replace('login.html'); }</script>
+  <link rel="stylesheet" href="detection.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo"><span class="logo-leaf">🌿</span> CropGuard <span>AI</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html#home" class="nav-link">Home</a></li>
+    <li><a href="index.html#how-it-works" class="nav-link">How It Works</a></li>
+    <li><a href="index.html#diseases" class="nav-link">Diseases</a></li>
+    <li><a href="index.html#features" class="nav-link">Features</a></li>
+    <li><a href="index.html#tips" class="nav-link">Crop Tips</a></li>
+    <li><a href="index.html#about" class="nav-link">About</a></li>
+    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="detection.html" class="nav-cta">Detect Now</a>
+    <ul class="nav-auth" id="navAuthLinks" style="list-style:none;display:flex;align-items:center;">
+      <li><a href="login.html" class="nav-login-btn">Login</a></li>
+      <li><a href="register.html" class="nav-cta">Register</a></li>
+    </ul>
+  </div>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- BANNER -->
+<div class="det-banner">
+  <div class="det-banner-inner">
+    <div class="det-banner-text">
+      <div class="det-banner-label">AI-Powered Diagnosis</div>
+      <h1>Crop Disease Detection</h1>
+      <p>Upload a photo of your crop and get an instant expert diagnosis with treatment guidance.</p>
+      <div class="det-banner-stats">
+        <div class="det-bstat"><strong>95%+</strong><span>Accuracy</span></div>
+        <div class="det-bstat"><strong>&lt;5s</strong><span>Results</span></div>
+        <div class="det-bstat"><strong>50+</strong><span>Diseases</span></div>
+      </div>
+    </div>
+    <div class="det-banner-badge">
+      <div class="det-badge-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+      </div>
+      <span>Detection Engine</span>
+      <strong>AI Vision</strong>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN PAGE -->
+<div class="det-page">
+  <div class="det-container">
+
+    <!-- Step indicator -->
+    <div class="det-steps">
+      <div class="det-step active" id="step1">1. Upload Image</div>
+      <div class="det-step-arrow">&rsaquo;</div>
+      <div class="det-step" id="step2">2. AI Analysis</div>
+      <div class="det-step-arrow">&rsaquo;</div>
+      <div class="det-step" id="step3">3. View Results</div>
+    </div>
+
+    <div class="det-grid">
+
+      <!-- LEFT: Upload Card -->
+      <div class="upload-card">
+        <div class="card-header"><h2>Upload Your Crop Image</h2></div>
+        <div class="card-body">
+
+          <!-- THE FILE INPUT — visible to browser, hidden visually -->
+          <input type="file" id="fileInput" accept="image/*"
+            style="display:block;width:0;height:0;opacity:0;position:absolute;overflow:hidden;" />
+
+          <!-- Drop zone — clicking this label opens the file picker instantly -->
+          <label for="fileInput" class="drop-zone" id="dropZone"
+            ondragover="event.preventDefault();this.classList.add('dragover')"
+            ondragleave="this.classList.remove('dragover')"
+            ondrop="event.preventDefault();this.classList.remove('dragover');handleDrop(event)">
+            <div class="drop-placeholder" id="dropPlaceholder">
+              <div class="drop-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="17 8 12 3 7 8"/>
+                  <line x1="12" y1="3" x2="12" y2="15"/>
+                </svg>
+              </div>
+              <p><strong>Click to upload</strong> or drag &amp; drop</p>
+              <small>JPG, PNG, WEBP — max 10MB</small>
+            </div>
+            <div class="drop-preview" id="dropPreview" style="display:none;">
+              <img id="preview-img" src="" alt="Crop preview"
+                style="width:100%;max-height:240px;object-fit:cover;display:block;" />
+              <div class="drop-preview-overlay"><span>Click to change image</span></div>
+            </div>
+          </label>
+
+          <!-- Crop Type -->
+          <div class="desc-label" style="margin-bottom:0.5rem;">
+            Crop Type <span class="desc-optional">(optional)</span>
+          </div>
+          <select class="crop-select" id="cropType">
+            <option value="">— Select crop type —</option>
+            <option>Maize</option><option>Beans</option><option>Tomatoes</option>
+            <option>Irish Potatoes</option><option>Kales (Sukuma Wiki)</option>
+            <option>Sorghum</option><option>Onions</option><option>Rice</option>
+            <option>Cassava</option><option>Wheat</option><option>Other</option>
+          </select>
+
+          <!-- Description -->
+          <div class="desc-label">
+            Describe what you observe <span class="desc-optional">(optional)</span>
+          </div>
+          <textarea class="desc-textarea" id="description"
+            placeholder="e.g. Yellow spots on leaves, wilting stems, brown patches..."></textarea>
+
+          <!-- Analyse button -->
+          <button class="btn-analyse" id="detectBtn" onclick="runDetection()" disabled>
+            <span id="btnText">Analyse Crop</span>
+          </button>
+
+          <div class="upload-tips">
+            <p><strong>Tips:</strong> Use a clear, well-lit photo. Focus on the affected area.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT: Results Card -->
+      <div class="results-card">
+
+        <!-- Empty state -->
+        <div class="res-empty" id="resEmpty">
+          <div class="res-empty-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Ready to Diagnose</h3>
+          <p>Upload a crop image to receive your AI-powered disease report</p>
+          <div class="res-empty-steps">
+            <div class="res-empty-step"><span class="res-step-num">1</span><span>Upload a clear crop photo</span></div>
+            <div class="res-empty-step"><span class="res-step-num">2</span><span>Optionally describe symptoms</span></div>
+            <div class="res-empty-step"><span class="res-step-num">3</span><span>Click Analyse and get results</span></div>
+          </div>
+        </div>
+
+        <!-- Loading state -->
+        <div class="res-loading" id="resLoading">
+          <div class="scan-animation">
+            <div class="scan-img-frame">
+              <div class="scan-line"></div>
+              <svg class="scan-leaf" viewBox="0 0 80 80" fill="none">
+                <path d="M40 10 C20 10 10 30 10 45 C10 62 25 72 40 72 C55 72 70 62 70 45 C70 30 60 10 40 10Z"
+                  fill="rgba(76,175,80,0.15)" stroke="#4caf50" stroke-width="2"/>
+                <line x1="40" y1="72" x2="40" y2="18" stroke="#a8d5a2" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="40" y1="50" x2="26" y2="38" stroke="#a8d5a2" stroke-width="1" stroke-linecap="round"/>
+                <line x1="40" y1="58" x2="54" y2="46" stroke="#a8d5a2" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="scan-dots"><span></span><span></span><span></span></div>
+          </div>
+          <h3>Analysing your crop...</h3>
+          <div class="scan-steps">
+            <div class="scan-step" id="scanStep1"><div class="scan-step-dot active"></div><span>Processing image</span></div>
+            <div class="scan-step" id="scanStep2"><div class="scan-step-dot"></div><span>Detecting disease patterns</span></div>
+            <div class="scan-step" id="scanStep3"><div class="scan-step-dot"></div><span>Generating diagnosis report</span></div>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div class="res-content" id="resContent">
+          <div class="res-header">
+            <div class="res-header-top">
+              <div class="res-disease-name" id="resDiseaseNameEl"></div>
+              <span class="res-type-badge" id="resTypeBadge"></span>
+            </div>
+            <div class="res-confidence" id="resConfidence" style="display:none;">
+              <span class="conf-label">AI Confidence</span>
+              <div class="conf-bar-wrap"><div class="conf-bar-fill" id="confBarFill" style="width:0%"></div></div>
+              <span class="conf-pct" id="confPct"></span>
+            </div>
+          </div>
+
+          <div class="res-body">
+            <div class="res-section" id="secCauses" style="display:none;">
+              <div class="res-section-title">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="8"/><line x1="10" y1="6" x2="10" y2="10"/><line x1="10" y1="13" x2="10" y2="14"/></svg>
+                Causes
+              </div>
+              <ul class="res-list" id="resCauses"></ul>
+            </div>
+            <div class="res-section" id="secPrevention" style="display:none;">
+              <div class="res-section-title">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z"/></svg>
+                Prevention Measures
+              </div>
+              <ul class="res-list" id="resPrevention"></ul>
+            </div>
+            <div class="res-section" id="secFuture" style="display:none;">
+              <div class="res-section-title">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 10h18M10 1l9 9-9 9"/></svg>
+                How to Avoid in Future
+              </div>
+              <ul class="res-list" id="resFuture"></ul>
+            </div>
+            <div class="res-section" id="secReco" style="display:none;">
+              <div class="res-section-title">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                Recommendations
+              </div>
+              <div class="res-reco" id="resReco"></div>
+            </div>
+          </div>
+
+          <div class="res-footer">
+            <div class="feedback-wrap" id="feedbackWrap">
+              <p class="feedback-label">Was this diagnosis accurate?</p>
+              <div class="feedback-btns">
+                <button class="btn-feedback" onclick="submitFeedback('correct', this)">Yes, correct</button>
+                <button class="btn-feedback" onclick="submitFeedback('partial', this)">Partially</button>
+                <button class="btn-feedback" onclick="submitFeedback('incorrect', this)">No, incorrect</button>
+              </div>
+              <p class="feedback-thanks" id="feedbackThanks" style="display:none;">Thank you for your feedback!</p>
+            </div>
+            <div class="footer-actions">
+              <button class="btn-reset" onclick="resetDetection()">&#8617; Analyse Another</button>
+              <button class="btn-pdf" onclick="downloadPDF()">Download PDF Report</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HISTORY SECTION -->
+<div class="history-section" id="historySection">
+  <div class="det-container">
+    <div class="history-header">
+      <div>
+        <h2 class="history-title">Analysis History</h2>
+        <p class="history-sub">Your recent crop disease analyses.</p>
+      </div>
+      <button class="btn-clear-history" onclick="clearHistory()">Clear All</button>
+    </div>
+    <div class="history-grid" id="historyGrid">
+      <div class="history-empty"><p>No analyses yet. Run your first detection above.</p></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p><strong>CropGuard AI</strong> &mdash; AI-Driven Crop Disease Detection &amp; Prevention</p>
+  <p style="margin-top:0.4rem;"><a href="index.html">&larr; Back to Home</a></p>
+</footer>
+
+<script src="app.js"></script>
+<script src="nav-user.js"></script>
+
+<!-- Wire up file input AFTER DOM is loaded -->
+<script>
+  var _fi = document.getElementById('fileInput');
+  console.log('fileInput found:', _fi);
+  if (_fi) {
+    _fi.addEventListener('change', function() {
+      console.log('File selected:', this.files[0]);
+      if (this.files && this.files[0]) handleFile(this.files[0]);
+      this.value = '';
+    });
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register — CropGuard AI</title>
+  <link rel="stylesheet" href="auth.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+<div class="body-blob-1"></div>
+<div class="body-blob-2"></div>
+<div class="body-blob-3"></div>
+
+<div class="auth-wrapper">
+
+  <!-- LEFT: FORM -->
+  <div class="auth-left">
+    <div class="auth-logo-row">
+      <span class="logo-leaf">🌿</span>
+      <span>CropGuard AI</span>
+    </div>
+
+    <p class="auth-welcome">Join for free</p>
+    <h1 class="auth-title">Create Account</h1>
+
+    <div class="auth-alert" id="alertBox"></div>
+
+    <form class="auth-form" id="registerForm" onsubmit="handleRegister(event)">
+
+      <div class="field">
+        <label for="full_name">Full Name *</label>
+        <input type="text" id="full_name" placeholder="e.g. John Kamau" required />
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="your@email.com" />
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="07XXXXXXXX" />
+        </div>
+      </div>
+      <p class="field-hint">Provide at least one — email or phone.</p>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="farm_location">Farm Location</label>
+          <input type="text" id="farm_location" placeholder="e.g. Rongai, Nakuru" />
+        </div>
+        <div class="field">
+          <label for="primary_crops">Primary Crops</label>
+          <input type="text" id="primary_crops" placeholder="Maize, Beans..." />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="password">Password *</label>
+          <div class="pass-wrap">
+            <input type="password" id="password" placeholder="Min. 6 characters" required />
+            <button type="button" class="pass-toggle" onclick="togglePass('password', this)">Show</button>
+          </div>
+        </div>
+        <div class="field">
+          <label for="confirm_password">Confirm Password *</label>
+          <div class="pass-wrap">
+            <input type="password" id="confirm_password" placeholder="Repeat password" required />
+            <button type="button" class="pass-toggle" onclick="togglePass('confirm_password', this)">Show</button>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-auth" id="registerBtn">Create Account</button>
+
+    </form>
+
+    <div class="auth-switch">
+      Already have an account? <a href="login.html">Log in</a>
+    </div>
+  </div>
+
+  <!-- RIGHT: ILLUSTRATION -->
+  <div class="auth-right">
+    <div class="auth-right-blob"></div>
+
+    <div class="auth-brand">
+      <strong>CropGuard AI</strong>
+      <span>For Farmers</span>
+    </div>
+
+    <div class="auth-illustration">
+      <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500&q=80" alt="Farm field" />
+    </div>
+
+    <div class="auth-right-text">
+      <h2>Detect Crop Diseases Instantly</h2>
+      <p>Join thousands of farmers using AI to protect their harvests and maximize yields.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  if (localStorage.getItem('cg_token')) window.location.href = 'detection.html';
+
+  async function handleRegister(e) {
+    e.preventDefault();
+    const btn   = document.getElementById('registerBtn');
+    const alert = document.getElementById('alertBox');
+
+    const full_name        = document.getElementById('full_name').value.trim();
+    const email            = document.getElementById('email').value.trim();
+    const phone            = document.getElementById('phone').value.trim();
+    const farm_location    = document.getElementById('farm_location').value.trim();
+    const primary_crops    = document.getElementById('primary_crops').value.trim();
+    const password         = document.getElementById('password').value;
+    const confirm_password = document.getElementById('confirm_password').value;
+
+    alert.className = 'auth-alert';
+
+    if (!email && !phone) {
+      alert.textContent = 'Please provide at least an email or phone number.';
+      alert.className = 'auth-alert error'; return;
+    }
+    if (password.length < 6) {
+      alert.textContent = 'Password must be at least 6 characters.';
+      alert.className = 'auth-alert error'; return;
+    }
+    if (password !== confirm_password) {
+      alert.textContent = 'Passwords do not match.';
+      alert.className = 'auth-alert error'; return;
+    }
+
+    btn.disabled = true; btn.textContent = 'Creating account...';
+
+    try {
+      const res  = await fetch('/api/auth/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ full_name, email: email || null, phone: phone || null, password, farm_location, primary_crops })
+      });
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert.textContent = data.error || 'Registration failed.';
+        alert.className = 'auth-alert error';
+      } else {
+        localStorage.setItem('cg_token', data.token);
+        localStorage.setItem('cg_user', JSON.stringify(data.user));
+        alert.textContent = 'Account created! Redirecting...';
+        alert.className = 'auth-alert success';
+        setTimeout(() => window.location.href = 'index.html', 1000);
+      }
+    } catch {
+      alert.textContent = 'Could not connect to server. Open via http://localhost:3000';
+      alert.className = 'auth-alert error';
+    } finally {
+      btn.disabled = false; btn.textContent = 'Create Account';
+    }
+  }
+
+  function togglePass(id, btn) {
+    const input = document.getElementById(id);
+    input.type = input.type === 'password' ? 'text' : 'password';
+    btn.textContent = input.type === 'password' ? 'Show' : 'Hide';
+  }
+</script>
+</body>
+</html>

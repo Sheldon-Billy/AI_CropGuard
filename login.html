@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — CropGuard AI</title>
+  <link rel="stylesheet" href="auth.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+<div class="body-blob-1"></div>
+<div class="body-blob-2"></div>
+<div class="body-blob-3"></div>
+
+<div class="auth-wrapper">
+
+  <!-- LEFT: FORM -->
+  <div class="auth-left">
+    <div class="auth-logo-row">
+      <span class="logo-leaf">🌿</span>
+      <span>CropGuard AI</span>
+    </div>
+
+    <p class="auth-welcome">Welcome back</p>
+    <h1 class="auth-title">Log In</h1>
+
+    <div class="auth-alert" id="alertBox"></div>
+
+    <form class="auth-form" id="loginForm" onsubmit="handleLogin(event)">
+
+      <div class="field">
+        <label for="identifier">Your Email or Phone</label>
+        <input type="text" id="identifier" placeholder="your@email.com or 07XXXXXXXX" required autocomplete="username" />
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="pass-wrap">
+          <input type="password" id="password" placeholder="Your password" required autocomplete="current-password" />
+          <button type="button" class="pass-toggle" onclick="togglePass('password', this)">Show</button>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-auth" id="loginBtn">Log In</button>
+
+    </form>
+
+    <div class="auth-switch">
+      Don't have an account? <a href="register.html">Sign up</a>
+    </div>
+  </div>
+
+  <!-- RIGHT: ILLUSTRATION -->
+  <div class="auth-right">
+    <div class="auth-right-blob"></div>
+
+    <div class="auth-brand">
+      <strong>CropGuard AI</strong>
+      <span>For Farmers</span>
+    </div>
+
+    <div class="auth-illustration">
+      <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=500&q=80" alt="Farm field" />
+    </div>
+
+    <div class="auth-right-text">
+      <h2>Protect Your Harvest</h2>
+      <p>Upload a crop photo and get an instant AI-powered disease diagnosis with treatment guidance.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  if (localStorage.getItem('cg_token')) window.location.href = 'detection.html';
+
+  async function handleLogin(e) {
+    e.preventDefault();
+    const btn   = document.getElementById('loginBtn');
+    const alert = document.getElementById('alertBox');
+    const raw   = document.getElementById('identifier').value.trim();
+    const password = document.getElementById('password').value;
+
+    btn.disabled = true; btn.textContent = 'Signing in...';
+    alert.className = 'auth-alert';
+
+    const isEmail = raw.includes('@');
+    const body = isEmail ? { email: raw, password } : { phone: raw, password };
+
+    try {
+      const res  = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert.textContent = data.error || 'Login failed.';
+        alert.className = 'auth-alert error';
+      } else {
+        localStorage.setItem('cg_token', data.token);
+        localStorage.setItem('cg_user', JSON.stringify(data.user));
+        window.location.href = 'index.html';
+      }
+    } catch {
+      alert.textContent = 'Could not connect to server. Open via http://localhost:3000';
+      alert.className = 'auth-alert error';
+    } finally {
+      btn.disabled = false; btn.textContent = 'Log In';
+    }
+  }
+
+  function togglePass(id, btn) {
+    const input = document.getElementById(id);
+    input.type = input.type === 'password' ? 'text' : 'password';
+    btn.textContent = input.type === 'password' ? 'Show' : 'Hide';
+  }
+</script>
+</body>
+</html>

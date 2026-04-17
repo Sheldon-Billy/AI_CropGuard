@@ -1,0 +1,16 @@
+{
+  "name": "cropdisease_ai-driven-",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.20.0"
+  }
+}

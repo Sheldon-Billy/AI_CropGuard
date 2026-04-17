@@ -1,0 +1,682 @@
+{"ts":"2026-04-12T11:25:40.789Z","session":"20260412-112540","kind":"server_start","data":{"port":5500,"host":"0.0.0.0","root":"/home/sheldon/dev/Web Dev/CropDisease_AI-Driven ","https":false,"live_reload":true}}
+{"ts":"2026-04-12T11:25:41.998Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":28}}
+{"ts":"2026-04-12T11:25:42.138Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:25:42.276Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:25:42.670Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c0","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:31:53.423Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:31:53.424Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:31:53.557Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":7}}
+{"ts":"2026-04-12T11:31:53.626Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c0"}}
+{"ts":"2026-04-12T11:31:53.720Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:31:53.722Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:31:53.791Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c1","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:37:10.911Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:37:10.944Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c1"}}
+{"ts":"2026-04-12T11:37:11.019Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:37:11.047Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:37:11.174Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c2","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:38:15.159Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/diseases/Late Blight.png","ext":"png","change":"create"}}
+{"ts":"2026-04-12T11:38:15.160Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/diseases/Late Blight.png","reload_type":"full"}}
+{"ts":"2026-04-12T11:38:15.436Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:38:15.495Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c2"}}
+{"ts":"2026-04-12T11:38:15.556Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:38:15.556Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:38:15.651Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c3","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:39:05.179Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/diseases/maize-streak-virus-flicker.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T11:39:05.184Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/diseases/maize-streak-virus-flicker.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T11:39:05.553Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:39:05.619Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c3"}}
+{"ts":"2026-04-12T11:39:05.663Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:39:05.684Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:39:05.732Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c4","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:39:44.190Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/diseases/Leaf-spot-diseases.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T11:39:44.191Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/diseases/Leaf-spot-diseases.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T11:39:44.304Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T11:39:44.552Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c4"}}
+{"ts":"2026-04-12T11:39:44.649Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:39:44.655Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:39:44.741Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c5","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:40:16.314Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/diseases/powdery_mildew.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T11:40:16.314Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/diseases/powdery_mildew.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T11:40:16.643Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:40:16.701Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c5"}}
+{"ts":"2026-04-12T11:40:16.823Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:40:16.827Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:40:16.959Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c6","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:43:05.662Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:43:05.663Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:43:05.685Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T11:43:05.695Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c6"}}
+{"ts":"2026-04-12T11:43:05.786Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":200,"duration_ms":4}}
+{"ts":"2026-04-12T11:43:05.787Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":10}}
+{"ts":"2026-04-12T11:43:05.789Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":200,"duration_ms":8}}
+{"ts":"2026-04-12T11:43:05.792Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":200,"duration_ms":5}}
+{"ts":"2026-04-12T11:43:05.796Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":200,"duration_ms":9}}
+{"ts":"2026-04-12T11:43:05.818Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":34}}
+{"ts":"2026-04-12T11:43:06.152Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c7","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:44:45.757Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:44:45.758Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:44:45.791Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T11:44:45.823Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c7"}}
+{"ts":"2026-04-12T11:44:45.901Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T11:44:45.903Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T11:44:45.905Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T11:44:45.951Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T11:44:45.958Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":10}}
+{"ts":"2026-04-12T11:44:46.001Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:44:46.057Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c8","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:44:55.007Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:44:55.040Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c8"}}
+{"ts":"2026-04-12T11:44:55.163Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:44:55.164Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:44:55.165Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:44:55.165Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:44:55.170Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:44:55.190Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:44:55.366Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c9","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:45:10.580Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:45:10.580Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:45:10.704Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":2}}
+{"ts":"2026-04-12T11:45:10.772Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c9"}}
+{"ts":"2026-04-12T11:45:10.872Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":6}}
+{"ts":"2026-04-12T11:45:10.873Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:10.873Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:10.873Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":8}}
+{"ts":"2026-04-12T11:45:10.874Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T11:45:10.878Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":7}}
+{"ts":"2026-04-12T11:45:10.951Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c10","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:45:37.744Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:45:37.746Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:45:37.785Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:37.816Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c10"}}
+{"ts":"2026-04-12T11:45:37.957Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:37.983Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:45:37.988Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:45:38.001Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:38.026Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:45:38.027Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:38.051Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c11","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:45:38.054Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:45:38.054Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:45:38.076Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:45:38.096Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c11"}}
+{"ts":"2026-04-12T11:45:38.120Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:38.123Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:45:38.124Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:45:38.136Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:45:38.143Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T11:45:38.146Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":6}}
+{"ts":"2026-04-12T11:45:38.165Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c12","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:46:29.848Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/hero/istockphoto-1786486973-612x612.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T11:46:29.848Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/hero/istockphoto-1786486973-612x612.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T11:46:30.248Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.323Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c12"}}
+{"ts":"2026-04-12T11:46:30.372Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.380Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.387Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.393Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.393Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.400Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:46:30.478Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c13","url":"http://localhost:5500/","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:48:30.099Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":15}}
+{"ts":"2026-04-12T11:48:30.207Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c13"}}
+{"ts":"2026-04-12T11:48:30.238Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:48:30.251Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:48:30.268Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:48:30.270Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:48:30.271Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:48:30.275Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:48:30.408Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c14","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:48:38.781Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:48:38.924Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c14"}}
+{"ts":"2026-04-12T11:48:38.956Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:48:38.962Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:48:39.048Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c15","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:49:00.156Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:49:00.260Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c15"}}
+{"ts":"2026-04-12T11:49:00.290Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:49:00.290Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:49:00.301Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:49:00.303Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:49:00.307Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:49:00.313Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:49:00.416Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c16","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:51:31.957Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/hero/image-asset.webp","ext":"webp","change":"create"}}
+{"ts":"2026-04-12T11:51:31.957Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/hero/image-asset.webp","reload_type":"full"}}
+{"ts":"2026-04-12T11:51:32.427Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:51:32.607Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c16"}}
+{"ts":"2026-04-12T11:51:32.658Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:51:32.659Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:51:32.659Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:51:32.676Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:51:32.676Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:51:32.678Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:51:32.729Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c17","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:53:42.805Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/hero/food_security.jpeg","ext":"jpeg","change":"create"}}
+{"ts":"2026-04-12T11:53:42.806Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/hero/food_security.jpeg","reload_type":"full"}}
+{"ts":"2026-04-12T11:53:43.153Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.242Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c17"}}
+{"ts":"2026-04-12T11:53:43.283Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.287Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.291Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.299Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.304Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.318Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:53:43.364Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c18","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:56:06.153Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/hero/wmremove-transformed-4.webp","ext":"webp","change":"create"}}
+{"ts":"2026-04-12T11:56:06.153Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/hero/wmremove-transformed-4.webp","reload_type":"full"}}
+{"ts":"2026-04-12T11:56:06.552Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:56:06.618Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c18"}}
+{"ts":"2026-04-12T11:56:06.656Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:06.663Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:06.663Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:06.700Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:06.703Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:06.708Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:06.773Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c19","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:56:57.958Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:56:58.003Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c19"}}
+{"ts":"2026-04-12T11:56:58.130Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:56:58.142Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:58.143Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:56:58.143Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:58.144Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:58.153Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:56:58.230Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c20","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:57:35.823Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:57:35.823Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:57:35.874Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":6}}
+{"ts":"2026-04-12T11:57:35.900Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c20"}}
+{"ts":"2026-04-12T11:57:35.960Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.969Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.971Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.974Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.976Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.977Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.981Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/food_security.jpeg","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.985Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:35.999Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:36.003Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":200,"duration_ms":4}}
+{"ts":"2026-04-12T11:57:36.004Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":200,"duration_ms":5}}
+{"ts":"2026-04-12T11:57:36.063Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c21","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:57:41.045Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T11:57:41.297Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c21"}}
+{"ts":"2026-04-12T11:57:41.342Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.344Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:41.351Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.352Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.352Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.352Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.376Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/food_security.jpeg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.377Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.377Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.378Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.381Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:41.442Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c22","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:57:45.043Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:57:45.043Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:57:45.062Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.073Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c22"}}
+{"ts":"2026-04-12T11:57:45.112Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.116Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.116Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.121Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.123Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.126Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:45.131Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.131Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.131Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/food_security.jpeg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.136Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.136Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:45.186Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c23","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:57:58.225Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:58.262Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c23"}}
+{"ts":"2026-04-12T11:57:58.369Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T11:57:58.377Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:58.378Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:57:58.378Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:58.378Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:58.378Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:58.402Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/food_security.jpeg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:57:58.404Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:57:58.417Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T11:57:58.418Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T11:57:58.419Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T11:57:58.567Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c24","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:59:07.460Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T11:59:07.460Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T11:59:07.502Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.535Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c24"}}
+{"ts":"2026-04-12T11:59:07.737Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.740Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.740Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.740Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.747Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.748Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.757Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.757Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.764Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.764Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:07.843Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c25","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:59:14.900Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/hero/food_security.jpeg","ext":"jpeg","change":"modify"}}
+{"ts":"2026-04-12T11:59:14.900Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/hero/food_security.jpeg","reload_type":"full"}}
+{"ts":"2026-04-12T11:59:14.985Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:15.032Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c25"}}
+{"ts":"2026-04-12T11:59:15.158Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:59:15.165Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:15.166Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:15.168Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:15.169Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:15.179Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:15.202Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T11:59:15.226Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:59:15.230Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":5}}
+{"ts":"2026-04-12T11:59:15.235Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":9}}
+{"ts":"2026-04-12T11:59:15.413Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c26","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T11:59:18.796Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:18.824Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c26"}}
+{"ts":"2026-04-12T11:59:18.935Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:59:18.936Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:59:18.956Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:59:18.959Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:18.974Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:18.978Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:19.003Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:19.016Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:19.027Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T11:59:19.028Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T11:59:19.070Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c27","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:02:17.928Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/irrigation.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T12:02:17.930Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/irrigation.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T12:02:18.275Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.364Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c27"}}
+{"ts":"2026-04-12T12:02:18.411Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.417Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.419Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.431Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.442Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.445Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:18.540Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c28","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:02:18.559Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T12:02:18.559Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T12:02:18.559Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:02:18.573Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.140Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/-crop-rotation-.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T12:02:55.141Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/-crop-rotation-.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T12:02:55.484Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:02:55.581Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c28"}}
+{"ts":"2026-04-12T12:02:55.646Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.649Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.653Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.663Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.664Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.669Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.685Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:02:55.685Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:02:55.686Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:02:55.744Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c29","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:02:55.746Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:03.736Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/certified seeds.webp","ext":"webp","change":"create"}}
+{"ts":"2026-04-12T12:04:03.737Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/certified seeds.webp","reload_type":"full"}}
+{"ts":"2026-04-12T12:04:04.102Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.161Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c29"}}
+{"ts":"2026-04-12T12:04:04.203Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.204Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.209Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.218Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.227Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.235Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.264Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.269Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.271Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:04.272Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c30","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:04:04.280Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.491Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/prune.webp","ext":"webp","change":"create"}}
+{"ts":"2026-04-12T12:04:35.491Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/prune.webp","reload_type":"full"}}
+{"ts":"2026-04-12T12:04:35.852Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:04:35.901Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c30"}}
+{"ts":"2026-04-12T12:04:35.934Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.936Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.939Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.955Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.959Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.960Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.979Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.980Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:35.981Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:04:36.000Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c31","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:04:36.001Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:44.346Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T12:05:44.347Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:05:45.338Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":2}}
+{"ts":"2026-04-12T12:05:45.439Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c31"}}
+{"ts":"2026-04-12T12:05:45.751Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":23}}
+{"ts":"2026-04-12T12:05:45.752Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":24}}
+{"ts":"2026-04-12T12:05:45.752Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":24}}
+{"ts":"2026-04-12T12:05:45.767Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:45.768Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:45.776Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:45.828Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:45.828Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:45.828Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:05:45.867Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c32","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:05:45.914Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:06:36.487Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/soil testing.html","ext":"html","change":"create"}}
+{"ts":"2026-04-12T12:06:36.487Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/soil testing.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:06:37.348Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.563Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c32"}}
+{"ts":"2026-04-12T12:06:37.612Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.613Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.614Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:06:37.615Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.616Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.622Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.641Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.642Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.642Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.649Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:06:37.741Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c33","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:08:14.956Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/scouting.jpeg","ext":"jpeg","change":"create"}}
+{"ts":"2026-04-12T12:08:14.963Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/scouting.jpeg","reload_type":"full"}}
+{"ts":"2026-04-12T12:08:15.332Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.388Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c33"}}
+{"ts":"2026-04-12T12:08:15.451Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.452Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.459Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.470Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.476Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.480Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.515Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c34","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:08:15.524Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:08:15.533Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.549Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:15.557Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.731Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.740Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c34"}}
+{"ts":"2026-04-12T12:08:44.769Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.773Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.773Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.774Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.777Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.777Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.785Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.788Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.788Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.788Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:08:44.808Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c35","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:10:13.704Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:10:13.727Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c35"}}
+{"ts":"2026-04-12T12:10:13.876Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:10:13.887Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:10:13.892Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":5}}
+{"ts":"2026-04-12T12:10:13.894Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":7}}
+{"ts":"2026-04-12T12:10:13.896Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":8}}
+{"ts":"2026-04-12T12:10:13.896Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":10}}
+{"ts":"2026-04-12T12:10:13.944Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:10:13.948Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:10:13.950Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:10:13.951Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:10:14.042Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c36","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:11:05.560Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/soil testing.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T12:11:05.563Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/soil testing.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:11:05.680Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":6}}
+{"ts":"2026-04-12T12:11:05.730Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c36"}}
+{"ts":"2026-04-12T12:11:05.857Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:11:05.861Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:11:05.862Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:11:05.863Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:11:05.863Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:11:05.863Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:11:06.104Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:11:06.113Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":10}}
+{"ts":"2026-04-12T12:11:06.122Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:11:06.138Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":16}}
+{"ts":"2026-04-12T12:11:06.293Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c37","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:12:43.990Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/soil testing.jpeg","ext":"jpeg","change":"create"}}
+{"ts":"2026-04-12T12:12:43.990Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/soil testing.jpeg","reload_type":"full"}}
+{"ts":"2026-04-12T12:12:44.355Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:44.368Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c37"}}
+{"ts":"2026-04-12T12:12:44.487Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:44.502Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:44.549Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:44.590Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:44.652Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:44.671Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T12:12:44.803Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c38","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:12:44.995Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:12:44.996Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:45.006Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:12:45.072Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:13:09.546Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/soiltesting.jpg","ext":"jpg","change":"create"}}
+{"ts":"2026-04-12T12:13:09.549Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/soiltesting.jpg","reload_type":"full"}}
+{"ts":"2026-04-12T12:13:09.822Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:09.959Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c38"}}
+{"ts":"2026-04-12T12:13:10.110Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:10.124Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:10.134Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:10.134Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:10.147Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:10.209Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:13:10.284Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:13:10.286Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:13:10.289Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":5}}
+{"ts":"2026-04-12T12:13:10.405Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c39","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:13:10.407Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:13:15.967Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/soil testing.jpeg","ext":"jpeg","change":"modify"}}
+{"ts":"2026-04-12T12:13:15.968Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/soil testing.jpeg","reload_type":"full"}}
+{"ts":"2026-04-12T12:13:16.000Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.021Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c39"}}
+{"ts":"2026-04-12T12:13:16.076Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.086Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.100Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.109Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.116Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.123Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.151Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.160Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:13:16.162Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:13:16.215Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c40","url":"http://localhost:5500/index.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:13:16.221Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:52.942Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:52.964Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c40"}}
+{"ts":"2026-04-12T12:15:53.048Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.062Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.075Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.075Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.075Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.092Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.092Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.092Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.092Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:15:53.114Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T12:15:53.168Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c41","url":"http://localhost:5500/index.html#tips","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:16:10.786Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T12:16:10.786Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:16:10.800Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T12:16:10.811Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c41"}}
+{"ts":"2026-04-12T12:16:10.855Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.856Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.856Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.856Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.857Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.858Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.867Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/irrigation.jpg","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.868Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/certified%20seeds.webp","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.868Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/prune.webp","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.869Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/-crop-rotation-.jpg","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:10.904Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c42","url":"http://localhost:5500/index.html#tips","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:16:11.026Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:11.026Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:16:11.034Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":4}}
+{"ts":"2026-04-12T12:16:11.036Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":8}}
+{"ts":"2026-04-12T12:16:11.057Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/soiltesting.jpg","status":200,"duration_ms":6}}
+{"ts":"2026-04-12T12:16:11.058Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/scouting.jpeg","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T12:17:29.657Z","session":"20260412-112540","kind":"file_change","data":{"path":"images/health_tips/certified seeds.webp","ext":"webp","change":"modify"}}
+{"ts":"2026-04-12T12:17:29.657Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"images/health_tips/certified seeds.webp","reload_type":"full"}}
+{"ts":"2026-04-12T12:17:29.839Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.885Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c42"}}
+{"ts":"2026-04-12T12:17:29.928Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.928Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:17:29.929Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.944Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.946Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.959Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.987Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c43","url":"http://localhost:5500/index.html#tips","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:17:29.989Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:29.993Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:30.000Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:30.006Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:30.095Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/irrigation.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:30.211Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/-crop-rotation-.jpg","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:17:30.477Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/certified%20seeds.webp","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:30.484Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/prune.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:17:30.600Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/scouting.jpeg","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:17:30.689Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/soiltesting.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:18:43.591Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:18:43.740Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c43"}}
+{"ts":"2026-04-12T12:18:43.757Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:18:43.763Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:18:43.899Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c44","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:21:22.022Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T12:21:22.022Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:21:22.105Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":200,"duration_ms":31}}
+{"ts":"2026-04-12T12:21:22.347Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c44"}}
+{"ts":"2026-04-12T12:21:22.423Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:21:22.429Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:21:22.532Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c45","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:21:43.858Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T12:21:43.858Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:21:43.878Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:21:43.889Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c45"}}
+{"ts":"2026-04-12T12:21:43.925Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:21:43.926Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:21:43.970Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c46","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:22:24.763Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:22:24.777Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c46"}}
+{"ts":"2026-04-12T12:22:24.826Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:22:24.828Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T12:22:24.893Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c47","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:22:25.065Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.css","ext":"css","change":"modify"}}
+{"ts":"2026-04-12T12:22:25.065Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.css","reload_type":"css"}}
+{"ts":"2026-04-12T12:22:25.075Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":2}}
+{"ts":"2026-04-12T12:22:39.510Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:22:39.519Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c47"}}
+{"ts":"2026-04-12T12:22:39.542Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:22:39.544Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:22:39.610Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c48","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:23:14.508Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:23:14.509Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:23:14.560Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T12:23:14.603Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c48"}}
+{"ts":"2026-04-12T12:23:14.673Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:14.675Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:15.115Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c49","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:23:25.394Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:23:25.394Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:23:25.415Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:25.433Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c49"}}
+{"ts":"2026-04-12T12:23:25.503Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:25.507Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:25.545Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c50","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:23:42.497Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.css","ext":"css","change":"modify"}}
+{"ts":"2026-04-12T12:23:42.497Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.css","reload_type":"css"}}
+{"ts":"2026-04-12T12:23:42.501Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:43.929Z","session":"20260412-112540","kind":"file_change","data":{"path":"index.html","ext":"html","change":"modify"}}
+{"ts":"2026-04-12T12:23:43.929Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"index.html","reload_type":"full"}}
+{"ts":"2026-04-12T12:23:43.953Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":1}}
+{"ts":"2026-04-12T12:23:43.965Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c50"}}
+{"ts":"2026-04-12T12:23:44.016Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:44.016Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:23:44.041Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c51","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:27:12.484Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:27:12.497Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c51"}}
+{"ts":"2026-04-12T12:27:12.566Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":7}}
+{"ts":"2026-04-12T12:27:12.569Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":10}}
+{"ts":"2026-04-12T12:27:12.689Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c52","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:28:30.504Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:30.515Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c52"}}
+{"ts":"2026-04-12T12:28:30.548Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:30.549Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:30.572Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c53","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:28:32.932Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.html","status":200,"duration_ms":26}}
+{"ts":"2026-04-12T12:28:33.047Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c53"}}
+{"ts":"2026-04-12T12:28:33.055Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/index.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.056Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Late%20Blight.png","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.058Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/Leaf-spot-diseases.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.058Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/maize-streak-virus-flicker.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.059Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/diseases/powdery_mildew.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.059Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.065Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/irrigation.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.068Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/-crop-rotation-.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.069Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/certified%20seeds.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.072Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/prune.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.075Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/health_tips/scouting.jpeg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.078Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/image-asset.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.079Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/istockphoto-1786486973-612x612.jpg","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.082Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.083Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/wmremove-transformed-4.webp","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.120Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/images/hero/food_security.jpeg","status":404,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:33.127Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c54","url":"http://localhost:5500/index.html#how-it-works","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:28:37.464Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:28:37.538Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c54"}}
+{"ts":"2026-04-12T12:28:37.549Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:37.552Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:28:37.571Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c55","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:31:10.288Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.css","ext":"css","change":"modify"}}
+{"ts":"2026-04-12T12:31:10.288Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.css","reload_type":"css"}}
+{"ts":"2026-04-12T12:31:10.293Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:31:26.160Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:31:26.160Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:31:26.263Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:31:26.279Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c55"}}
+{"ts":"2026-04-12T12:31:26.325Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:31:26.418Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":3}}
+{"ts":"2026-04-12T12:31:26.758Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c56","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:33:03.390Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:33:03.390Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:33:03.458Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":5}}
+{"ts":"2026-04-12T12:33:03.486Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c56"}}
+{"ts":"2026-04-12T12:33:03.582Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":8}}
+{"ts":"2026-04-12T12:33:03.586Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":9}}
+{"ts":"2026-04-12T12:33:03.937Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c57","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:35:20.814Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:35:20.814Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:35:20.830Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:20.839Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c57"}}
+{"ts":"2026-04-12T12:35:20.872Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:20.884Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:21.013Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c58","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:35:43.921Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:35:43.921Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:35:43.934Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:43.941Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c58"}}
+{"ts":"2026-04-12T12:35:43.971Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:43.972Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T12:35:43.994Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c59","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:35:53.636Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:35:53.636Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:35:53.662Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:53.686Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c59"}}
+{"ts":"2026-04-12T12:35:53.797Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":304,"duration_ms":3}}
+{"ts":"2026-04-12T12:35:53.800Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:35:53.872Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c60","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:36:05.952Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.css","ext":"css","change":"modify"}}
+{"ts":"2026-04-12T12:36:05.953Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.css","reload_type":"css"}}
+{"ts":"2026-04-12T12:36:05.957Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:40:02.101Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:40:02.102Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"app.js","reload_type":"full"}}
+{"ts":"2026-04-12T12:40:07.939Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":2}}
+{"ts":"2026-04-12T12:40:08.562Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c60"}}
+{"ts":"2026-04-12T12:40:10.984Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T12:40:13.094Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":1}}
+{"ts":"2026-04-12T12:40:14.613Z","session":"20260412-112540","kind":"file_change","data":{"path":"app.js","ext":"js","change":"modify"}}
+{"ts":"2026-04-12T12:40:16.141Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c61","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T12:40:27.887Z","session":"20260412-112540","kind":"file_change","data":{"path":"detection.css","ext":"css","change":"modify"}}
+{"ts":"2026-04-12T12:40:27.894Z","session":"20260412-112540","kind":"reload_trigger","data":{"path":"detection.css","reload_type":"css"}}
+{"ts":"2026-04-12T12:40:27.985Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T13:37:03.315Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.html","status":304,"duration_ms":0}}
+{"ts":"2026-04-12T13:37:03.323Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c61"}}
+{"ts":"2026-04-12T13:37:03.374Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/detection.css","status":200,"duration_ms":3}}
+{"ts":"2026-04-12T13:37:03.378Z","session":"20260412-112540","kind":"http_request","data":{"method":"GET","path":"/app.js","status":200,"duration_ms":0}}
+{"ts":"2026-04-12T13:37:03.463Z","session":"20260412-112540","kind":"ws_connect","data":{"client_id":"c62","url":"http://localhost:5500/detection.html","user_agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","viewport":[1715,815]}}
+{"ts":"2026-04-12T13:40:22.355Z","session":"20260412-112540","kind":"ws_disconnect","data":{"client_id":"c62"}}

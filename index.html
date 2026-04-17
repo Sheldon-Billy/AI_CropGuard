@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CropGuard AI — Crop Disease Detection & Prevention</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="index.html" class="nav-logo">
+    <span class="logo-leaf">🌿</span> CropGuard <span>AI</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+    <li><a href="#how-it-works" class="nav-link" data-section="how-it-works">How It Works</a></li>
+    <li><a href="#diseases" class="nav-link" data-section="diseases">Diseases</a></li>
+    <li><a href="#features" class="nav-link" data-section="features">Features</a></li>
+    <li><a href="#tips" class="nav-link" data-section="tips">Crop Tips</a></li>
+    <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+    <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="detection.html" class="nav-cta">Detect Now</a>
+    <ul class="nav-auth" id="navAuthLinks" style="list-style:none; display:flex; align-items:center;">
+      <li><a href="login.html" class="nav-login-btn">Login</a></li>
+      <li><a href="register.html" class="nav-cta">Register</a></li>
+    </ul>
+  </div>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section class="hero" id="home">
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active" style="background-image:url('images/hero/image-asset.webp')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/istockphoto-1786486973-612x612.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/robot-farming-with-drones-field-sunset_23-2152000842.avif')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero/wmremove-transformed-4.webp')"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">AI-Powered Agriculture</div>
+    <h1>Detect Crop Diseases <em>Instantly</em> with AI</h1>
+    <p>Upload a photo of your crop and get an instant AI diagnosis — disease name, type, causes, prevention, and expert recommendations.</p>
+    <div class="hero-btns">
+      <a href="detection.html" class="btn-primary">Start Detection</a>
+      <a href="#how-it-works" class="btn-secondary">Learn How It Works</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><strong>50+</strong><span>Diseases Detected</span></div>
+      <div class="stat"><strong>95%</strong><span>Accuracy Rate</span></div>
+      <div class="stat"><strong>3s</strong><span>Avg. Diagnosis Time</span></div>
+      <div class="stat"><strong>Free</strong><span>To Use</span></div>
+    </div>
+  </div>
+  <div class="hero-dots" id="heroDots">
+    <span class="hero-dot active" onclick="goToSlide(0)"></span>
+    <span class="hero-dot" onclick="goToSlide(1)"></span>
+    <span class="hero-dot" onclick="goToSlide(2)"></span>
+    <span class="hero-dot" onclick="goToSlide(3)"></span>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-bg" id="how-it-works">
+  <div class="container text-center">
+    <span class="section-label">Simple Process</span>
+    <h2 class="section-title">How CropGuard AI Works</h2>
+    <p class="section-sub">From photo to diagnosis in seconds. No expertise needed — just your crop and a camera.</p>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>Capture or Upload</h3>
+        <p>Take a clear photo of the affected crop leaf, stem, or fruit and upload it to our system.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>Describe (Optional)</h3>
+        <p>Add a brief description of what you're observing — symptoms, duration, affected area.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>AI Analysis</h3>
+        <p>Our AI model analyzes the image and description using advanced vision intelligence.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">4</div>
+        <h3>Get Full Report</h3>
+        <p>Receive a complete diagnosis: disease name, type, causes, prevention steps, and future recommendations.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMON DISEASES -->
+<section class="diseases-bg" id="diseases">
+  <div class="container text-center">
+    <span class="section-label">Know Your Enemy</span>
+    <h2 class="section-title">Common Crop Diseases</h2>
+    <p class="section-sub">Understanding these diseases helps you act fast. Our AI can detect these and many more.</p>
+    <div class="diseases-grid">
+      <div class="disease-card">
+        <div class="disease-img">
+          <img src="images/diseases/late-blight.png" alt="Late Blight" />
+        </div>
+        <div class="disease-body">
+          <h3>Late Blight</h3>
+          <p>Affects potatoes and tomatoes. Causes dark lesions on leaves and stems, rapidly destroying crops.</p>
+          <span class="tag tag-fungal">Fungal</span>
+        </div>
+      </div>
+      <div class="disease-card">
+        <div class="disease-img">
+          <img src="images/diseases/maize-streak-virus-flicker.jpg" alt="Maize Streak Virus" />
+        </div>
+        <div class="disease-body">
+          <h3>Maize Streak Virus</h3>
+          <p>Causes yellow streaks on maize leaves, stunting growth and severely reducing yield.</p>
+          <span class="tag tag-viral">Viral</span>
+        </div>
+      </div>
+      <div class="disease-card">
+        <div class="disease-img">
+          <img src="images/diseases/Leaf-spot-diseases.jpg" alt="Bacterial Leaf Blight" />
+        </div>
+        <div class="disease-body">
+          <h3>Bacterial Leaf Blight</h3>
+          <p>Water-soaked lesions that turn yellow then brown, common in rice and other cereals.</p>
+          <span class="tag tag-bacterial">Bacterial</span>
+        </div>
+      </div>
+      <div class="disease-card">
+        <div class="disease-img">
+          <img src="images/diseases/powdery_mildew.jpg" alt="Powdery Mildew" />
+        </div>
+        <div class="disease-body">
+          <h3>Powdery Mildew</h3>
+          <p>White powdery coating on leaves and stems, weakening the plant and reducing photosynthesis.</p>
+          <span class="tag tag-fungal">Fungal</span>
+        </div>
+      </div>
+      <div class="disease-card">
+        <div class="disease-img">
+          <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&q=80" alt="Wheat Rust" />
+        </div>
+        <div class="disease-body">
+          <h3>Wheat Rust</h3>
+          <p>Orange-red pustules on wheat leaves and stems, one of the most destructive cereal diseases.</p>
+          <span class="tag tag-fungal">Fungal</span>
+        </div>
+      </div>
+      <div class="disease-card">
+        <div class="disease-img">
+          <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80" alt="Cassava Mosaic" />
+        </div>
+        <div class="disease-body">
+          <h3>Cassava Mosaic</h3>
+          <p>Mosaic patterns and leaf distortion in cassava, spread by whiteflies across sub-Saharan Africa.</p>
+          <span class="tag tag-viral">Viral</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-bg" id="features">
+  <div class="container text-center">
+    <span class="section-label">Why CropGuard AI</span>
+    <h2 class="section-title">Built for Farmers, Powered by AI</h2>
+    <p class="section-sub">Everything you need to protect your crops and maximize your harvest.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+        </div>
+        <h3>AI-Powered Vision</h3>
+        <p>Advanced AI vision analyzes crop images with expert-level accuracy, identifying diseases humans might miss.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3>Instant Results</h3>
+        <p>Get a full diagnosis report in under 5 seconds. No waiting, no appointments, no guesswork.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <h3>Disease Classification</h3>
+        <p>Know exactly what you're dealing with — fungal, bacterial, viral, or pest-related — for targeted treatment.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg>
+        </div>
+        <h3>Treatment Guidance</h3>
+        <p>Actionable prevention and treatment steps tailored to the specific disease detected in your crop.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>
+        </div>
+        <h3>Works on Any Device</h3>
+        <p>Fully responsive — use it on your phone in the field, tablet, or desktop back at the farm office.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>Supports Local Crops</h3>
+        <p>Trained on a wide variety of crops common across Africa, Asia, and global agricultural regions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CROP TIPS -->
+<section class="tips-bg" id="tips">
+  <div class="container text-center">
+    <span class="section-label">Best Practices</span>
+    <h2 class="section-title">General Crop Health Tips</h2>
+    <p class="section-sub">Prevention is always better than cure. Follow these practices to keep your crops healthy.</p>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-img">
+          <img src="images/health_tips/irrigation.jpg" alt="Irrigation" />
+        </div>
+        <div class="tip-body">
+          <h4>Proper Irrigation</h4>
+          <p>Avoid overwatering — excess moisture creates ideal conditions for fungal and bacterial diseases.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-img">
+          <img src="images/health_tips/-crop-rotation-.jpg" alt="Crop rotation" />
+        </div>
+        <div class="tip-body">
+          <h4>Crop Rotation</h4>
+          <p>Rotate crops each season to break disease cycles and prevent soil-borne pathogen buildup.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-img">
+          <img src="images/health_tips/certified-seeds.webp" alt="Certified seeds" />
+        </div>
+        <div class="tip-body">
+          <h4>Use Certified Seeds</h4>
+          <p>Always plant certified, disease-resistant seed varieties from trusted suppliers.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-img">
+          <img src="images/health_tips/prune.webp" alt="Pruning" />
+        </div>
+        <div class="tip-body">
+          <h4>Prune Infected Parts</h4>
+          <p>Remove and destroy infected leaves or branches immediately to prevent disease spread.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-img">
+          <img src="images/health_tips/soiltesting.jpg" alt="Soil testing" />
+        </div>
+        <div class="tip-body">
+          <h4>Soil Testing</h4>
+          <p>Test your soil regularly to maintain proper pH and nutrient levels that support plant immunity.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-img">
+          <img src="images/health_tips/scouting.jpeg" alt="Field scouting" />
+        </div>
+        <div class="tip-body">
+          <h4>Regular Scouting</h4>
+          <p>Walk your fields weekly to spot early signs of disease before they spread across the crop.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-bg" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="section-label">About CropGuard AI</span>
+        <h2 class="section-title">Protecting Harvests with Intelligent Technology</h2>
+        <p class="section-sub">We combine cutting-edge AI with agricultural expertise to give every farmer access to expert-level crop diagnostics.</p>
+        <p>CropGuard AI was built to bridge the gap between modern AI technology and the everyday challenges farmers face. Crop diseases cost billions in losses annually — most of which are preventable with early detection.</p>
+        <p>Our system analyzes crop images and provides detailed, actionable diagnoses. Whether you're a smallholder farmer or managing large-scale agriculture, CropGuard AI is your always-available crop doctor.</p>
+        <a href="detection.html" class="btn-primary" style="display:inline-block; margin-top:1.5rem;">Try It Free &rarr;</a>
+      </div>
+      <div class="about-img-side">
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80" alt="Healthy farm field" class="about-photo" />
+        <div class="about-stats-overlay">
+          <div class="about-stat"><div class="about-stat-num">50+</div><div class="about-stat-label">Diseases Detected</div></div>
+          <div class="about-stat"><div class="about-stat-num">95%</div><div class="about-stat-label">Accuracy Rate</div></div>
+          <div class="about-stat"><div class="about-stat-num">&lt;5s</div><div class="about-stat-label">Diagnosis Time</div></div>
+          <div class="about-stat"><div class="about-stat-num">Global</div><div class="about-stat-label">Crop Support</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-bg" id="contact">
+  <div class="container text-center">
+    <span class="section-label">Get In Touch</span>
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-sub">Have questions, feedback, or need support? We'd love to hear from you.</p>
+    <div class="contact-grid" style="text-align:left;">
+      <div class="contact-info">
+        <h3>We're Here to Help</h3>
+        <p>Whether you're a farmer, agronomist, researcher, or just curious about AI in agriculture — reach out and we'll get back to you promptly.</p>
+        <div class="contact-item">
+          <div class="contact-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <span>support@cropguardai.com</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <span>+1 (800) CROPGUARD</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <span>Agricultural Innovation Hub, Nairobi, Kenya</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <span>Mon – Fri, 8:00 AM – 6:00 PM EAT</span>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleContact(event)">
+        <div class="form-group">
+          <label for="c-name">Full Name</label>
+          <input type="text" id="c-name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="c-email">Email Address</label>
+          <input type="email" id="c-email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="c-subject">Subject</label>
+          <select id="c-subject">
+            <option value="">Select a topic</option>
+            <option>Disease Detection Help</option>
+            <option>Technical Support</option>
+            <option>Partnership Inquiry</option>
+            <option>General Feedback</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="c-msg">Message</label>
+          <textarea id="c-msg" placeholder="Tell us how we can help..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit" id="contactBtn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-leaf">🌿</span>
+      <strong>CropGuard AI</strong>
+    </div>
+    <p>AI-Driven Crop Disease Detection &amp; Prevention — Built for farmers worldwide.</p>
+    <div class="footer-links">
+      <a href="detection.html">Start Detection</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#diseases">Diseases</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 CropGuard AI. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script src="nav-user.js"></script>
+
+</body>
+</html>

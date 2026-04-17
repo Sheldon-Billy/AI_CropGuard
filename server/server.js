@@ -4,8 +4,7 @@ const path = require('path');
 const jwt  = require('jsonwebtoken');
 const { Pool } = require('pg');
 
-const PORT       = 3000;
-const JWT_SECRET = 'cropguard_jwt_secret_2026';
+const PORT = 3000;
 
 // ── PostgreSQL connection ─────────────────────────────────
 const pool = new Pool({
@@ -16,6 +15,8 @@ const pool = new Pool({
   port:     5432,
   ssl:      { rejectUnauthorized: false }
 });
+
+const JWT_SECRET = 'cropguard_jwt_secret_2026';
 
 // ── Create tables ─────────────────────────────────────────
 async function initDB() {

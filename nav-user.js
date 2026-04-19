@@ -27,7 +27,7 @@
           <a href="index.html" class="nav-dropdown-item">Home</a>
           <a href="detection.html" class="nav-dropdown-item">Detect Disease</a>
           <a href="detection.html#historySection" class="nav-dropdown-item">My History</a>
-
+          ${user.role === 'admin' ? '<a href="admin.html" class="nav-dropdown-item" style="color:#2d7a2d!important;font-weight:700;">Admin Panel</a>' : ''}
           <div class="nav-dropdown-divider"></div>
           <a href="#" class="nav-dropdown-item nav-logout" onclick="navLogout(event)">Logout</a>
         </div>

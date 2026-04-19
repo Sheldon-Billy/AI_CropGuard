@@ -1,9 +1,8 @@
 {
   "name": "cropdisease_ai-driven-",
   "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node api/health.js"
   },
   "keywords": [],
   "author": "",

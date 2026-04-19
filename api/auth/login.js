@@ -17,6 +17,11 @@ module.exports = async function handler(req, res) {
 
   const pool = getPool();
 
+  // Quick env check
+  if (!process.env.DB_HOST) {
+    return res.status(500).json({ error: 'Database not configured. Missing environment variables.' });
+  }
+
   try {
     const result = email
       ? await pool.query('SELECT * FROM users WHERE email = $1', [email])
@@ -31,6 +36,6 @@ module.exports = async function handler(req, res) {
     return res.status(200).json({ message: 'Login successful.', token, user: safeUser });
   } catch (err) {
     console.error(err);
-    return res.status(500).json({ error: 'Server error.' });
+    return res.status(500).json({ error: err.message || 'Server error.' });
   }
 }
